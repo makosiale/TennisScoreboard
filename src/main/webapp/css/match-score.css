@@ -1,0 +1,84 @@
+body {
+    background-color: cyan;
+}
+
+.table {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: large;
+}
+
+th, td, tr {
+    border: 1px solid darkblue;
+    padding: 8px;
+    text-align: center;
+}
+
+td, caption {
+    font-weight: bold;
+}
+
+caption {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.button-block {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    display: flex;
+}
+
+.button {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: larger;
+    width: 70%;
+    font-family: Arial;
+    font-size: larger;
+    margin: 5px;
+    width: 400px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.win-state{
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    height: 35%;
+    margin-bottom: 50px;
+}
+.p-win-state{
+    font-weight: bold;
+    font-size: 40px;
+    color: darkblue;
+}
+.button-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

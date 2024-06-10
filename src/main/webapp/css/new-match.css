@@ -1,0 +1,22 @@
+.form-new-matches{
+    background-color: cornflowerblue;
+    width: 20%;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    font-family: Arial;
+    font-size: large;
+    height: 12%;
+}
+label, input,button{
+    margin: 5px 5px 5px 5px;
+}
+.form-name{
+    font-weight: bold;
+}
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
+}
