@@ -25,6 +25,7 @@ public class MatchScoreCalculationService {
     public static boolean taiBreak = false;
 
     public void score(Match match, String playerWinScore) {
+        if (!taiBreak) isTaiBreak(match);
         if (taiBreak){
             handleTiebreak(match, playerWinScore);
         } else {
@@ -149,7 +150,6 @@ public class MatchScoreCalculationService {
 
     public void WinAllSet(Match match, String playerWinScore) {
         score(match, playerWinScore);
-        if (!taiBreak) isTaiBreak(match);
         if (match.getScoreBySet1() == 2) {
             match.setWinner(match.getPlayer1());
         } else if (match.getScoreBySet2() == 2) {
