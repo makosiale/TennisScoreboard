@@ -4,16 +4,16 @@
 
 ## Что нужно знать
 
-- [Java](../technologies/java.md) - коллекции, ООП
-- [Паттерн MVC(S)](../technologies/java.md#mvc) 
-- [Maven/Gradle](../technologies/build-systems.md)
-- [Backend](../technologies/backend.md)
+- [Java] - коллекции, ООП
+- [Паттерн MVC(S)]) 
+- [Maven/Gradle]
+- [Backend]
   - Java Servlets, JSP
   - HTTP - GET и POST запросы, формы
-- [Базы данных](../technologies/databases.md) - SQL, Hibernate, H2 (in-memory SQL database)
-- [Frontend](../technologies/frontend.md) - HTML/CSS, блочная вёрстка
-- [Тесты](../technologies/tests.md) - юнит тестирование, JUnit 5
-- [Деплой](../technologies/dev-ops.md#деплой) - облачный хостинг, командная строка Linux, Tomcat
+- [Базы данных] - SQL, Hibernate, H2 (in-memory SQL database)
+- [Frontend] - HTML/CSS, блочная вёрстка
+- [Тесты] - юнит тестирование, JUnit 5
+- [Деплой] - облачный хостинг, командная строка Linux, Tomcat
 
 ## Мотивация проекта
 
